@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 45px;
+    justify-content: center;
+  
+}
+
+.numeros{
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.botoes{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.iniciar, .pausar, .continuar, .resetar{
+    height: 2em;
+    width: 6em;
+    background-color: aquamarine;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.iniciar{
+    background-color: rgb(14, 186, 186);
+}
+
+.pausar:hover, .continuar:hover, .resetar:hover, .iniciar:hover {
+    background-color: rgb(168, 218, 244);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.milisegundos, .segundos, .minutos{
+    width: 1.2em;
+}
+
+
+
+.milisegundos{
+    color: rgb(144, 183, 170);
+    font-size: 45px;
+    
+}
+
+
+.pausar, .continuar{
+    display: none;
+}
